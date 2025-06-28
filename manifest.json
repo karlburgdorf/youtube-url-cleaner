@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube URL Cleaner",
+  "version": "1.0",
+  "description": "Automatically removes tracking parameters (si=) from YouTube URLs when copied to clipboard",
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "scripting",
+    "clipboardWrite",
+    "clipboardRead"
+  ],
+  "host_permissions": [
+    "https://*.youtube.com/*",
+    "https://youtu.be/*"
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube URL Cleaner",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*",
+        "https://youtu.be/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
+
