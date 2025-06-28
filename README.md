@@ -39,6 +39,7 @@ A browser extension that automatically removes tracking parameters from YouTube 
 ## 🛠️ Technical Details
 
 - **Manifest Version**: 3 (latest Chrome extension standard)
+- **Browser Compatibility**: Tested and works in both Chrome and Edge
 - **Permissions**: 
   - `activeTab` - Access to current tab
   - `clipboardRead/Write` - Monitor and modify clipboard
