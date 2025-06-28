@@ -71,7 +71,7 @@ This extension only processes URLs locally in your browser. No data is sent to e
 
 ## � Acknowledgments
 
-- Icon made by FACH at [Flaticon](https://www.flaticon.com/authors/fach) - Thank you for providing high-quality icons for open source projects
+- Icon made by bearicons at [Flaticon](https://www.flaticon.com/authors/bearicons) - Thank you for providing high-quality icons for open source projects
 
 ## �📝 License
 
