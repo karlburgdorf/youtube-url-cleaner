@@ -69,6 +69,10 @@ A browser extension that automatically removes tracking parameters from YouTube 
 
 This extension only processes URLs locally in your browser. No data is sent to external servers.
 
-## 📝 License
+## � Acknowledgments
+
+- Icon made by FACH at [Flaticon](https://www.flaticon.com/authors/fach) - Thank you for providing high-quality icons for open source projects
+
+## �📝 License
 
 This project is open source. Feel free to modify and distribute as needed.
