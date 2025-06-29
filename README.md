@@ -20,7 +20,7 @@ A browser extension that automatically removes tracking parameters from YouTube 
 
 ## 🔧 Installation
 
-**Note**: This extension is only available as an unpacked developer extension and cannot be published to the Chrome Web Store due to its clipboard monitoring functionality.
+**Note**: This extension is only available as an unpacked developer extension and won't be published by me to the Chrome Web Store due to it limiting YouTube's tracking features which I doubt Google would permit.
 
 1. Download or clone this repository to your local machine
 2. Open Chrome/Edge and navigate to `chrome://extensions/` or `edge://extensions/`
@@ -35,6 +35,7 @@ A browser extension that automatically removes tracking parameters from YouTube 
 2. When a YouTube URL is detected in your clipboard, it automatically removes tracking parameters
 3. The cleaned URL replaces the original in your clipboard
 4. You can toggle the extension on/off using the popup interface
+5. There are no notifications, although the code contains some disabled functionality for this.
 
 ## 🛠️ Technical Details
 
@@ -55,8 +56,8 @@ A browser extension that automatically removes tracking parameters from YouTube 
 ├── content.js         # Content script for clipboard monitoring  
 ├── popup.html         # Extension popup interface
 ├── popup.js           # Popup functionality
-├── icon.png          # Extension icon
-└── README.md         # This file
+├── icon.png           # Extension icon
+└── README.md          # This file
 ```
 
 ## 🎯 Usage
@@ -76,4 +77,4 @@ This extension only processes URLs locally in your browser. No data is sent to e
 
 ## �📝 License
 
-This project is open source. Feel free to modify and distribute as needed.
+This project is open source. Feel free to modify or distribute.
